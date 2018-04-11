@@ -7,8 +7,28 @@ function theBeatlesPlay(musicians, instruments) {
   return array;
 }
   
-function johnLennonFacts(array) {
+function johnLennonFacts(facts) {
+  var i = 0;
+  var result = [];
   while ([condition]) {
   [loopBody];
   }
 }
+function johnLennonFacts (facts) {
++  var i = 0
++  var result = []
++  while (i < facts.length) {
++    result[i] = facts[i] + "!!!";
++  i++;  
++  }
++  return result
++}
++
++function iLoveTheBeatles(i) {
++  var result = []
++  do {
++    result.push("I love the Beatles!"); 
++    i++;
++  }
++  while (i < 15);
++  return result
